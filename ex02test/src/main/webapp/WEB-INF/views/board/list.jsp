@@ -4,6 +4,8 @@
 <!-- 상대 경로를 유일하게 쓰는 곳 -->
 <%@include file="../includes/header.jsp"%>
 
+<h1>ㅎㅇㅎㅇ</h1>
+
 <div id="page-wrapper">
 	<div class="row">
 		<div class="col-lg-12">
