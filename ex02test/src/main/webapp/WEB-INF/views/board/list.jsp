@@ -21,30 +21,6 @@
 				</div>
 				<!-- /.panel-heading -->
 				<div class="panel-body">
-					<div class="form-group">
-						<label>BNO</label> <input class="form-control" readonly="readonly"
-							name="bno" value='<c:out value="${dto.bno }"/>'>
-					</div>
-					<div class="form-group">
-						<label>Title</label> <input class="form-control"
-							readonly="readonly" name="title"
-							value='<c:out value="${dto.title }"/>'>
-					</div>
-
-					<div class="form-group">
-						<label>Content</label>
-						<textarea class="form-control" rows="5" cols="50"
-							readonly="readonly" name="content">
-							<c:out value="${dto.content }" />
-						</textarea>
-					</div>
-
-					<div class="form-group">
-						<label>Writer</label> <input class="form-control"
-							readonly="readonly" name="Writer"
-							value='<c:out value="${dto.Writer }"/>'>
-					</div>
-
 					<table id="boardTable" width="100%"
 						class="table table-striped table-bordered table-hover">
 						<thead>
