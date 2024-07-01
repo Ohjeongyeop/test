@@ -18,15 +18,15 @@
 				<div class="panel-body">
 					<form action="/board/register" method="post">
 						<div class="form-group">
-							<label>Title</label> <input class="form-control" name="title">
+							<label>Title</label> <input class="form-control" name="title" required="required">
 						</div>
 						<div class="form-group">
 							<label>Content</label>
-							<textarea class="form-control" rows="3" name="content"></textarea>
+							<textarea class="form-control" rows="3" name="content" required="required"></textarea>
 						</div>
 						<div class="form-group">
 							<label>Writer</label> <input class="form-control"
-								 name="writer">
+								 name="writer" required="required">
 						</div>
 
 

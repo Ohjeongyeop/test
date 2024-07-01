@@ -27,9 +27,7 @@
 					</div>
 					<div class="form-group">
 						<label>Content</label>
-						<textarea class="form-control" rows="3" readonly="readonly" name="content">
-							<c:out value="${dto.content }"/>'>
-						</textarea>
+						<textarea class="form-control" rows="3" readonly="readonly" name="content"><c:out value="${dto.content }"/></textarea>
 					</div>
 					<div class="form-group">
 						<label>Writer</label> <input class="form-control" readonly="readonly" name="writer"

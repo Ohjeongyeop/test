@@ -18,7 +18,7 @@
 		<property name="driverClassName"
 			value="com.mysql.cj.jdbc.Driver"></property>
 		<property name="jdbcUrl"
-			value="jdbc:mysql://localhost:3306/spring_db?useSSL=false&amp;allowPublicKeyRetrieval=true&amp;useUnicode=true&amp;serverTimezone=UTC"></property>
+			value="jdbc:mysql://localhost:3306/spring_db?useSSL=false&amp;allowPublicKeyRetrieval=true&amp;useUnicode=true&amp;serverTimezone=Asia/Seoul"></property>
 		<property name="username" value="root"></property>
 		<property name="password" value="0000"></property>
 	</bean>
