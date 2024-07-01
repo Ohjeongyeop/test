@@ -6,3 +6,5 @@
 2b
 3b
 >>>>>>> origin/master
+2b
+3b
